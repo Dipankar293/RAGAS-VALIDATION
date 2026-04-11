@@ -1,0 +1,13 @@
+# Virtual environments
+ragasenv/
+.ragasenv/
+venv/
+.env/
+
+# Python
+__pycache__/
+*.pyc
+
+# Logs & system
+*.log
+.DS_Store
