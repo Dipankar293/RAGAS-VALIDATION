@@ -13,5 +13,7 @@ dataset = build_eval_dataset(query, answer, results)
 
 result = run_evaluation(dataset)
 
-print("\n📊 Evaluation Results:\n")
+print(answer)
+
+print("\n Evaluation Results:\n")
 print(result)

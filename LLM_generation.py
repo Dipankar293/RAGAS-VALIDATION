@@ -38,8 +38,7 @@ Answer:
         messages=[
             {"role": "system", "content": "You answer only from provided context."},
             {"role": "user", "content": prompt}
-        ],
-        temperature=1
+        ]
     )
 
     return response.choices[0].message.content.strip()
